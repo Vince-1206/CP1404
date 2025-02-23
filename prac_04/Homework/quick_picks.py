@@ -13,7 +13,6 @@ def main():
         print(format_quick_pick(quick_pick))
 
 def generate_quick_pick():
-    """Generate a single quick pick with unique random numbers."""
     quick_pick = []
     while len(quick_pick) < NUMBERS_PER_LINE:
         number = random.randint(MIN_NUMBER, MAX_NUMBER)
@@ -23,7 +22,6 @@ def generate_quick_pick():
     return quick_pick
 
 def format_quick_pick(quick_pick):
-    """Format a quick pick for neat display."""
     return " ".join(f"{num:2}" for num in quick_pick)
 
 main()
