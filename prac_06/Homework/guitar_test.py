@@ -1,6 +1,6 @@
 """
 Estimate time: 10 minutes
-Actual time: TBD
+Actual time: 15
 """
 
 from guitar import Guitar

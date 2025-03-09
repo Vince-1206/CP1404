@@ -1,6 +1,6 @@
 """
 Estimate time: 15 minutes
-Actual time: TBD
+Actual time: 20
 """
 
 from programming_language import ProgrammingLanguage
