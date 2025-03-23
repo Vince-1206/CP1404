@@ -52,7 +52,7 @@ def add_new_project(projects):
     name = input("Name: ")
     start_date = input("Start date (dd/mm/yyyy): ")
     priority = input("Priority: ")
-    cost = input("Cost estimate: ")
+    cost = input("Cost estimate: ").replace("$", "").strip()
     completion = input("Percent complete: ")
     projects.append(Project(name, start_date, priority, cost, completion))
 
