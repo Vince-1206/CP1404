@@ -2,7 +2,7 @@
 CP1404/CP5632 Practical
 Test SilverServiceTaxi class
 """
-from prac_09.silver_service_taxi import SilverServiceTaxi
+from silver_service_taxi import SilverServiceTaxi
 
 # Create a SilverServiceTaxi with name "Hummer", 200 fuel, and fanciness of 2
 luxury_taxi = SilverServiceTaxi("Hummer", 200, 2)

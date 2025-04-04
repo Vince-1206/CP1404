@@ -3,7 +3,7 @@ CP1404/CP5632 Practical
 UnreliableCar class, derived from Car
 """
 import random
-from prac_09.car import Car
+from car import Car
 
 
 class UnreliableCar(Car):

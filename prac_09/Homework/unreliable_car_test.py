@@ -2,7 +2,7 @@
 CP1404/CP5632 Practical
 Test UnreliableCar class
 """
-from prac_09.unreliable_car import UnreliableCar
+from unreliable_car import UnreliableCar
 
 # Create an unreliable car with 100 fuel and 30% reliability
 unreliable_car = UnreliableCar("Old Banger", 100, 30)

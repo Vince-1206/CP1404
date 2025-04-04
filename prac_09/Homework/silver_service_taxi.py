@@ -2,7 +2,7 @@
 CP1404/CP5632 Practical
 SilverServiceTaxi class, derived from Taxi
 """
-from prac_09.taxi import Taxi
+from taxi import Taxi
 
 
 class SilverServiceTaxi(Taxi):
