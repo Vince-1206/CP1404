@@ -20,8 +20,6 @@ if score < 50:
 """
 
 """
-fixed_score.py - corrected score checker
-
 Rules:
  - score must be between 0 and 100 inclusive
  - 90 or more -> Excellent
@@ -29,16 +27,13 @@ Rules:
  - below 50 -> Bad
 """
 
-def classify_score(score):
-    if score < 0 or score > 100:
-        return "Invalid score"
-    elif score >= 90:
-        return "Excellent"
-    elif score >= 50:
-        return "Passable"
-    else:
-        return "Bad"
+score = float(input("Enter score: "))
 
-if __name__ == "__main__":
-    score = float(input("Enter score: "))
-    print(classify_score(score))
+if score < 0 or score > 100:
+    print("Invalid score")
+elif score >= 90:
+    print("Excellent")
+elif score >= 50:
+    print("Passable")
+else:
+    print("Bad")
